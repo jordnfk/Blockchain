@@ -58,7 +58,7 @@ namespace Blockchain
         }
 
         /// <summary>
-        /// Sign a blockchain transaction
+        /// Sign a blockchain transaction and process the send request
         /// </summary>
         /// <param name="senderIdentifier">The sender identifier, as it saved in the Azure KeyVault (Id, name etc.)</param>
         /// <param name="recieverAddress">The receiver public address</param>
