@@ -17,7 +17,7 @@ namespace Blockchain
         Task<string> CreateAccountAsync(string identifier, string privateKey = "");
 
         /// <summary>
-        /// Signs a blockchain transaction
+        /// Signs a blockchain transaction and processes the request (return errors).
         /// </summary>
         /// <param name="senderIdentifier">The sender identifier (Id, name, etc...)</param>
         /// <param name="recieverAddress">The receiver address</param>
